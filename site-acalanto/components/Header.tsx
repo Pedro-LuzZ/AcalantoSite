@@ -8,11 +8,11 @@ export default function Header() {
       </div>
 
       <nav className="flex gap-8">
-        <a className="transition cursor-pointer" href="#inicio" style={{color: "#9C7CB4"}} onMouseEnter={(e) => e.target.style.opacity = "0.8"} onMouseLeave={(e) => e.target.style.opacity = "1"}>Início</a>
-        <a className="transition cursor-pointer" href="#sobre" style={{color: "#9C7CB4"}} onMouseEnter={(e) => e.target.style.opacity = "0.8"} onMouseLeave={(e) => e.target.style.opacity = "1"}>Quem somos</a>
-        <a className="transition cursor-pointer" href="#servicos" style={{color: "#9C7CB4"}} onMouseEnter={(e) => e.target.style.opacity = "0.8"} onMouseLeave={(e) => e.target.style.opacity = "1"}>Serviços</a>
-        <a className="transition cursor-pointer" href="#estrutura" style={{color: "#9C7CB4"}} onMouseEnter={(e) => e.target.style.opacity = "0.8"} onMouseLeave={(e) => e.target.style.opacity = "1"}>Estrutura</a>
-        <a className="transition cursor-pointer" href="#contato" style={{color: "#9C7CB4"}} onMouseEnter={(e) => e.target.style.opacity = "0.8"} onMouseLeave={(e) => e.target.style.opacity = "1"}>Contato</a>
+        <a className="transition cursor-pointer" href="#inicio" style={{color: "#9C7CB4"}} onMouseEnter={(e) => (e.target as HTMLElement).style.opacity = "0.8"} onMouseLeave={(e) => (e.target as HTMLElement).style.opacity = "1"}>Início</a>
+        <a className="transition cursor-pointer" href="#sobre" style={{color: "#9C7CB4"}} onMouseEnter={(e) => (e.target as HTMLElement).style.opacity = "0.8"} onMouseLeave={(e) => (e.target as HTMLElement).style.opacity = "1"}>Quem somos</a>
+        <a className="transition cursor-pointer" href="#servicos" style={{color: "#9C7CB4"}} onMouseEnter={(e) => (e.target as HTMLElement).style.opacity = "0.8"} onMouseLeave={(e) => (e.target as HTMLElement).style.opacity = "1"}>Serviços</a>
+        <a className="transition cursor-pointer" href="#estrutura" style={{color: "#9C7CB4"}} onMouseEnter={(e) => (e.target as HTMLElement).style.opacity = "0.8"} onMouseLeave={(e) => (e.target as HTMLElement).style.opacity = "1"}>Estrutura</a>
+        <a className="transition cursor-pointer" href="#contato" style={{color: "#9C7CB4"}} onMouseEnter={(e) => (e.target as HTMLElement).style.opacity = "0.8"} onMouseLeave={(e) => (e.target as HTMLElement).style.opacity = "1"}>Contato</a>
       </nav>
     </header>
   );
