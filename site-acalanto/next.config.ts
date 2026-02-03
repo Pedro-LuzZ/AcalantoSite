@@ -1,21 +1,7 @@
-import type { Config } from "tailwindcss";
+import type { NextConfig } from "next";
 
-const config: Config = {
-  content: [
-    "./src/app/**/*.{ts,tsx}",
-    "./src/components/**/*.{ts,tsx}",
-  ],
-  theme: {
-    extend: {
-      colors: {
-        primary: "#5A8F7B",      // ajuste depois conforme o Figma
-        secondary: "#E6F0EC",
-        background: "#F9FAF9",
-        text: "#2E2E2E",
-      },
-    },
-  },
-  plugins: [],
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
-export default config;
+export default nextConfig;
