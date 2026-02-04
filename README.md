@@ -19,13 +19,5 @@ Este projeto foi construído com:
 - **HTML5**
 - **CSS3**
 - **TypeScript**  
-*(conforme detectado na estatística de linguagens do repositório)* :contentReference[oaicite:1]{index=1}
 
-Essas tecnologias garantem um site moderno, rápido e compatível com dispositivos móveis.
-
----
-
-## 📂 Estrutura do Projeto
-
-O repositório segue uma estrutura padrão para sites em React:
 
